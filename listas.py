@@ -38,3 +38,9 @@ print n
 r = [1,2,3,3,3,4,5]
 r.remove(3)
 print r             # Eliina el primer numero repetido
+print '------------------------------'
+a = [1,2,3,4,5]
+b = [6,7,8,9,10]
+print a+b
+a.extend(b)
+print a
