@@ -1,5 +1,7 @@
 # Los sets solo permiten un conjunto de elementos unicos
-# y los elementos repetidos son eliminados
+# y los elementos repetidos son eliminados automaticamente.
+# Los conjuntos son utiles cuando se requiere buscar puntos
+# en comun entre los datos.
 
 a = { 1, 2, 2, 3, 3, 4, 5, 6 }
 print type(a)
@@ -24,3 +26,15 @@ print a | b
 
 # Muestra los elementos que estan en una de las 2 variables
 print a ^ b
+
+print '----- METODOS -----'
+
+s = {1,2,3,4,5}
+
+# Agregar elementos al conjunto
+s.add(6)
+print s
+s.remove(6)
+print s
+s.clear()
+print s
