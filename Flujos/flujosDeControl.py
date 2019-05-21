@@ -1,5 +1,5 @@
 # Como escribir un codigo largo.
-# Existe un regla que debemos limitar el largo
+# En python existe un regla que debemos limitar el largo
 # del codigo a un maximo de 80 caracteres.
 
 x = 1+1+1+1+1+1 \
