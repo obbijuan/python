@@ -1,3 +1,6 @@
+# Los diccionarios son mas rapidos que una lista, si se va a buscar
+# por una clave, ya que utiliza hashtable y esto hace mas facil y rapido
+# encontrar claves.
 
 d = {'x': 10, 'y': 20}
 print type(d)
