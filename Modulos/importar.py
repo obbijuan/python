@@ -2,7 +2,8 @@
 # podrá importar el archivo utils.py. El archivo __init__.py es escencial
 # para crear un paquete
 
-import modulos.utils
+# import modulos.ustils
+from modulos import utils
 
-r = modulos.utils.say_twice('hellow')
+r = utils.say_twice('hellow')
 print(r)
