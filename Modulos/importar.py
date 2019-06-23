@@ -2,8 +2,12 @@
 # podrá importar el archivo utils.py. El archivo __init__.py es escencial
 # para crear un paquete
 
-# import modulos.ustils
-from modulos import utils
+# import modulos.utils
+# from modulos import utils
+from talk import human
 
-r = utils.say_twice('hellow')
-print(r)
+
+# r = utils.say_twice('hellow')
+# print(r)
+
+print(human.cry())
